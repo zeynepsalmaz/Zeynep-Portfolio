@@ -1,0 +1,59 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "greeting": "Merhaba, Ben",
+    "name": "Zeynep Salmaz",
+    "title": "Yazılım Geliştirici",
+    "description": "Yazılım geliştirme konusunda tutkulu bir geliştiriciyim. Modern web teknolojileri kullanarak kullanıcı dostu ve etkili çözümler üretiyorum.",
+    "cta": "Projelerimi Görüntüle",
+    "scrollDown": "Aşağı kaydır"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Teknoloji tutkunu bir yazılım geliştiricisi olarak, sürekli öğrenmeye ve kendimi geliştirmeye odaklanıyorum.",
+    "getToKnow": "Beni Tanıyın!",
+    "paragraph1": "Merhaba! Ben <strong>Zeynep Salmaz</strong> ve bir <strong>Yazılım Geliştiricisiyim</strong>. Çeşitli projelerde çalışarak, startup'lar için danışmanlık yaparak ve yetenekli insanlarla işbirliği yaparak hem işletme hem de tüketici kullanımı için <strong>dijital ürünler</strong> geliştirdim.",
+    "paragraph2": "Teknoloji ve yazılım geliştirme konusunda tutkulu biriyim. Yıllar boyunca, farklı sektörlerde yüzlerce web ve mobil uygulama kullandım. Benimle <strong>iletişime geçmekten</strong> çekinmeyin.",
+    "skillsTitle": "Yeteneklerim",
+    "contactButton": "İletişim"
+  },
+  "projects": {
+    "title": "Projeler",
+    "subtitle": "Geliştirdiğim bazı önemli projeler ve uygulamalar",
+    "project1": {
+      "title": "E-Ticaret Web Uygulaması",
+      "description": "Modern ve kullanıcı dostu bir e-ticaret platformu. React, Node.js ve MongoDB kullanılarak geliştirildi. Ödeme entegrasyonu, kullanıcı yönetimi ve envanter takibi özellikleri içeriyor."
+    },
+    "project2": {
+      "title": "Görev Yönetim Sistemi",
+      "description": "Takım çalışması için geliştirilmiş bir proje yönetim uygulaması. Real-time işbirliği, görev atama ve ilerleme takibi özellikleri. TypeScript ve React kullanılarak geliştirildi."
+    },
+    "project3": {
+      "title": "Mobil Hava Durumu Uygulaması",
+      "description": "Responsive tasarım ile geliştirilen hava durumu uygulaması. API entegrasyonu, konum tabanlı hizmetler ve gelişmiş UI/UX özellikleri içeriyor."
+    },
+    "caseStudy": "Detayları Gör"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Projeleriniz hakkında konuşmak veya işbirliği yapmak için benimle iletişime geçebilirsiniz.",
+    "form": {
+      "name": "İsim",
+      "namePlaceholder": "İsminizi Girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta Adresinizi Girin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı Girin",
+      "submit": "Gönder"
+    }
+  },
+  "footer": {
+    "social": "Sosyal Medya",
+    "description": "Yazılım geliştirme tutkusu ile modern teknolojiler kullanarak etkili çözümler üretiyorum."
+  }
+}

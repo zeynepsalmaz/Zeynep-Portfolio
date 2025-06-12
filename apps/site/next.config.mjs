@@ -1,19 +1,12 @@
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    typedRoutes: true,
-  },
   images: {
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
-  },
-  i18n: {
-    locales: ['en', 'tr'],
-    defaultLocale: 'en',
   },
 };
 

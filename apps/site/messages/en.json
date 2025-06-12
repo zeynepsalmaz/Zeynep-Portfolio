@@ -1,0 +1,59 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hey, I'm",
+    "name": "Zeynep Salmaz",
+    "title": "Software Developer",
+    "description": "I'm a passionate software developer who creates user-friendly and effective solutions using modern web technologies.",
+    "cta": "View Projects",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "As a technology enthusiast software developer, I focus on continuous learning and self-improvement.",
+    "getToKnow": "Get to know me!",
+    "paragraph1": "Hello! I'm <strong>Zeynep Salmaz</strong> and I'm a <strong>Software Developer</strong>. I have worked on various projects, provided consulting for startups, and collaborated with talented people to develop <strong>digital products</strong> for both business and consumer use.",
+    "paragraph2": "I'm passionate about technology and software development. Over the years, I have used hundreds of web and mobile applications in different industries. Feel free to <strong>contact</strong> me.",
+    "skillsTitle": "My Skills",
+    "contactButton": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of the important projects and applications I have developed",
+    "project1": {
+      "title": "E-Commerce Web Application",
+      "description": "A modern and user-friendly e-commerce platform. Developed using React, Node.js and MongoDB. Includes payment integration, user management and inventory tracking features."
+    },
+    "project2": {
+      "title": "Task Management System", 
+      "description": "A project management application developed for team collaboration. Real-time collaboration, task assignment and progress tracking features. Developed using TypeScript and React."
+    },
+    "project3": {
+      "title": "Mobile Weather Application",
+      "description": "A weather application developed with responsive design. Includes API integration, location-based services and advanced UI/UX features."
+    },
+    "caseStudy": "Case Study"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "You can contact me to discuss your projects or collaborate.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter Your Name",
+      "email": "Email",
+      "emailPlaceholder": "Enter Your Email",
+      "message": "Message",
+      "messagePlaceholder": "Enter Your Message",
+      "submit": "Submit"
+    }
+  },
+  "footer": {
+    "social": "Social",
+    "description": "I create effective solutions using modern technologies with a passion for software development."
+  }
+}
