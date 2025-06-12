@@ -1,0 +1,41 @@
+{
+  "name": "zeynep-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Zeynep Salmaz",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=site",
+    "build": "npm run build --workspace=site",
+    "start": "npm run start --workspace=site",
+    "lint": "npm run lint --workspace=site",
+    "dev:admin": "npm run dev --workspace=admin",
+    "build:admin": "npm run build --workspace=admin",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf node_modules apps/*/node_modules libs/*/node_modules",
+    "install:all": "npm install && npm run build:libs",
+    "build:libs": "npm run build --workspace=ui-components && npm run build --workspace=shared-types"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^20.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "next.js",
+    "react",
+    "typescript",
+    "monorepo"
+  ],
+  "author": "Zeynep Salmaz",
+  "license": "MIT"
+}
