@@ -19,8 +19,7 @@
     "subtitle": "As a technology enthusiast software developer, I focus on continuous learning and self-improvement.",
     "paragraph1": "Full Stack Developer with a passion for building user-centric, AI-integrated, scalable web applications. Blending frontend and backend expertise (React, Next.js, Go, SQL) with strong communication and analytical skills gained through customer support, AI testing, and content creation roles. Experienced in community management, growth experimentation, and data-driven product decisions.",
   "paragraph2": "Outside of work, I love spending time with my dachshund, staying active with sports, playing computer games, and cooking delicious meals. These hobbies keep me balanced and inspired beyond the world of code.",
-    "skillsTitle": "My Skills",
-    "contactButton": "Contact"
+  "skillsTitle": "My Skills"
   },
   "projects": {
     "title": "Projects",
@@ -36,7 +35,9 @@
     "caseStudy": "Case Study"
   },
   "contact": {
-    "title": "Contact",
+  "title": "Contact",
+  "getInTouch": "Get in touch",
+  "info": "I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology. Don't hesitate to reach out!",
     "subtitle": "You can contact me to discuss your projects or collaborate.",
     "form": {
       "name": "Name",

@@ -19,8 +19,7 @@
   "getToKnow": "Zeynep hakkında kısa bir not!",
   "paragraph1": "Kullanıcı odaklı, yapay zeka entegreli ve ölçeklenebilir web uygulamaları geliştirmeye tutkulu bir Full Stack Developer’ım. Frontend ve backend uzmanlığımı (React, Next.js, Go, SQL) müşteri desteği, yapay zeka testleri ve içerik üretimi gibi alanlarda kazandığım güçlü iletişim ve analitik becerilerle birleştiriyorum. Topluluk yönetimi, büyüme denemeleri ve veri odaklı ürün kararlarında deneyimliyim.",
   "paragraph2": "İş dışında dachshund cinsi köpeğimle vakit geçirmeyi, spor yapmayı, bilgisayar oyunları oynamayı ve lezzetli yemekler yapmayı seviyorum. Bu hobiler, kod dünyasının ötesinde bana denge ve ilham veriyor.",
-  "skillsTitle": "Yeteneklerim",
-    "contactButton": "İletişim"
+  "skillsTitle": "Yeteneklerim"
   },
   "projects": {
     "title": "Projeler",
@@ -36,7 +35,9 @@
     "caseStudy": "Detayları Gör"
   },
   "contact": {
-    "title": "İletişim",
+  "title": "İletişim",
+  "getInTouch": "İletişime Geç",
+  "info": "Yeni fırsatlara, ilginç projeleri konuşmaya ya da teknoloji hakkında sohbet etmeye her zaman açığım. Bana ulaşmaktan çekinmeyin!",
     "subtitle": "Projeleriniz hakkında konuşmak veya işbirliği yapmak için benimle iletişime geçebilirsiniz.",
     "form": {
       "name": "İsim",

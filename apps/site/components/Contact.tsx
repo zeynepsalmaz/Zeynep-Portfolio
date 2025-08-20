@@ -24,30 +24,37 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000))
-    
-    // Reset form
-    setFormData({ name: '', email: '', message: '' })
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      })
+      if (res.ok) {
+        setFormData({ name: '', email: '', message: '' })
+        alert('Message sent successfully!')
+      } else {
+        const data = await res.json()
+        alert(data.error || 'Failed to send message.')
+      }
+    } catch (err) {
+      alert('Failed to send message.')
+    }
     setIsSubmitting(false)
-    
-    // Show success message (you can implement a toast here)
-    alert('Message sent successfully!')
   }
 
   const contactInfo = [
     {
       icon: Mail,
       title: 'Email',
-      value: 'zeynep@example.com',
-      href: 'mailto:zeynep@example.com'
+      value: 'zeynepsalmazzs@gmail.com',
+      href: 'mailto:zeynepsalmazzs@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+90 555 123 4567',
-      href: 'tel:+905551234567'
+      value: '+90 5522782708',
+      href: 'tel:+905522782708'
     },
     {
       icon: MapPin,
@@ -83,10 +90,9 @@ export default function Contact() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-bold mb-6">{t('getInTouch')}</h3>
               <p className="text-primary-100 leading-relaxed mb-8">
-                I'm always open to discussing new opportunities, interesting projects, 
-                or just having a chat about technology. Don't hesitate to reach out!
+                {t('info')}
               </p>
             </div>
 

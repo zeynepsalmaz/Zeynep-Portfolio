@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowDown, Github, Linkedin } from 'lucide-react'
 
 export default function Hero() {
   const t = useTranslations('hero')
@@ -10,7 +10,6 @@ export default function Hero() {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/zeynepsalmaz', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/zeynepsalmaz', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:zeynep@example.com', label: 'Email' },
   ]
 
   return (
@@ -41,18 +40,20 @@ export default function Hero() {
                 {t('cta')}
               </a>
               <div className="flex items-center space-x-4">
-                {socialLinks.map((social) => (
-                  <a
-                    key={social.label}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-white border border-gray-200 rounded-full hover:border-primary-600 hover:text-primary-600 transition-all duration-200 shadow-sm"
-                    aria-label={social.label}
-                  >
-                    <social.icon size={20} />
-                  </a>
-                ))}
+                {socialLinks.map((social) => {
+                  const isWeb = social.href.startsWith('http');
+                  return (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      {...(isWeb ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                      className="p-3 bg-white border border-gray-200 rounded-full hover:border-primary-600 hover:text-primary-600 transition-all duration-200 shadow-sm"
+                      aria-label={social.label}
+                    >
+                      <social.icon size={20} />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </motion.div>
