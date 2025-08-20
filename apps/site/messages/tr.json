@@ -16,26 +16,22 @@
   "about": {
     "title": "Hakkımda",
     "subtitle": "Teknoloji tutkunu bir yazılım geliştiricisi olarak, sürekli öğrenmeye ve kendimi geliştirmeye odaklanıyorum.",
-    "getToKnow": "Beni Tanıyın!",
-    "paragraph1": "Merhaba! Ben <strong>Zeynep Salmaz</strong> ve bir <strong>Yazılım Geliştiricisiyim</strong>. Çeşitli projelerde çalışarak, startup'lar için danışmanlık yaparak ve yetenekli insanlarla işbirliği yaparak hem işletme hem de tüketici kullanımı için <strong>dijital ürünler</strong> geliştirdim.",
-    "paragraph2": "Teknoloji ve yazılım geliştirme konusunda tutkulu biriyim. Yıllar boyunca, farklı sektörlerde yüzlerce web ve mobil uygulama kullandım. Benimle <strong>iletişime geçmekten</strong> çekinmeyin.",
-    "skillsTitle": "Yeteneklerim",
+  "getToKnow": "Zeynep hakkında kısa bir not!",
+  "paragraph1": "Kullanıcı odaklı, yapay zeka entegreli ve ölçeklenebilir web uygulamaları geliştirmeye tutkulu bir Full Stack Developer’ım. Frontend ve backend uzmanlığımı (React, Next.js, Go, SQL) müşteri desteği, yapay zeka testleri ve içerik üretimi gibi alanlarda kazandığım güçlü iletişim ve analitik becerilerle birleştiriyorum. Topluluk yönetimi, büyüme denemeleri ve veri odaklı ürün kararlarında deneyimliyim.",
+  "paragraph2": "İş dışında dachshund cinsi köpeğimle vakit geçirmeyi, spor yapmayı, bilgisayar oyunları oynamayı ve lezzetli yemekler yapmayı seviyorum. Bu hobiler, kod dünyasının ötesinde bana denge ve ilham veriyor.",
+  "skillsTitle": "Yeteneklerim",
     "contactButton": "İletişim"
   },
   "projects": {
     "title": "Projeler",
     "subtitle": "Geliştirdiğim bazı önemli projeler ve uygulamalar",
     "project1": {
-      "title": "E-Ticaret Web Uygulaması",
-      "description": "Modern ve kullanıcı dostu bir e-ticaret platformu. React, Node.js ve MongoDB kullanılarak geliştirildi. Ödeme entegrasyonu, kullanıcı yönetimi ve envanter takibi özellikleri içeriyor."
+      "title": "Reportzy - Veri Raporlama ve Görselleştirme",
+      "description": "Reportzy, veri yükleme, analiz ve görselleştirme imkanı sunan bir platformdur. FastAPI ile backend, Pandas ile veri işleme ve React ile modern bir arayüz sunar. Kullanıcılar kolayca veri setlerini yükleyip analiz edebilir."
     },
     "project2": {
-      "title": "Görev Yönetim Sistemi",
-      "description": "Takım çalışması için geliştirilmiş bir proje yönetim uygulaması. Real-time işbirliği, görev atama ve ilerleme takibi özellikleri. TypeScript ve React kullanılarak geliştirildi."
-    },
-    "project3": {
-      "title": "Mobil Hava Durumu Uygulaması",
-      "description": "Responsive tasarım ile geliştirilen hava durumu uygulaması. API entegrasyonu, konum tabanlı hizmetler ve gelişmiş UI/UX özellikleri içeriyor."
+      "title": "Bibliotech - Kitap Yönetim Sistemi",
+      "description": "Global AI Hub Python 202 Bootcamp kapsamında geliştirilen full-stack kitap yönetim uygulaması. OOP ile tasarlandı, Open Library API ile zenginleştirildi, FastAPI ile REST API olarak sunuldu ve React frontend ile tamamlandı."
     },
     "caseStudy": "Detayları Gör"
   },

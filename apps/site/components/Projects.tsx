@@ -11,24 +11,19 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      image: '/images/project-ecommerce.jpg',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      githubUrl: 'https://github.com/zeynepsalmaz/ecommerce-app',
-      liveUrl: 'https://ecommerce-demo.zeynepsalmaz.dev',
+      image: '/images/project-reportzy.jpg', // Add an image if available
+      technologies: ['Python', 'FastAPI', 'Pandas', 'React'],
+      githubUrl: 'https://github.com/zeynepsalmaz/Reportzy',
+      liveUrl: '', // Add live URL if available
+      description: 'Reportzy is a data reporting and visualization tool. Built with FastAPI for the backend, Pandas for data processing, and React for a modern, interactive frontend. Enables users to upload, analyze, and visualize datasets easily.',
     },
     {
       id: 2,
-      image: '/images/project-taskmanager.jpg',
-      technologies: ['TypeScript', 'React', 'Socket.io', 'PostgreSQL'],
-      githubUrl: 'https://github.com/zeynepsalmaz/task-manager',
-      liveUrl: 'https://taskmanager-demo.zeynepsalmaz.dev',
-    },
-    {
-      id: 3,
-      image: '/images/project-weather.jpg',
-      technologies: ['React', 'API Integration', 'PWA', 'Geolocation'],
-      githubUrl: 'https://github.com/zeynepsalmaz/weather-app',
-      liveUrl: 'https://weather-demo.zeynepsalmaz.dev',
+      image: '/images/project-bibliotech.jpg', // Add an image if available
+      technologies: ['Python', 'Django', 'PostgreSQL', 'FastAPI', 'React'],
+      githubUrl: 'https://github.com/zeynepsalmaz/Bibliotech',
+      liveUrl: '', // Add live URL if available
+      description: 'Full-stack book management app from Global AI Hub Python 202 Bootcamp. Built with OOP, enriched via Open Library API, exposed as a REST API using FastAPI, and completed with a React frontend for a user-friendly interface.',
     },
   ]
 
@@ -73,7 +68,7 @@ export default function Projects() {
                   {t(`project${project.id}.title`)}
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  {t(`project${project.id}.description`)}
+                  {project.description ? project.description : t(`project${project.id}.description`)}
                 </p>
 
                 {/* Technologies */}

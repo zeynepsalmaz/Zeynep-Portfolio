@@ -14,11 +14,11 @@
     "scrollDown": "Scroll down"
   },
   "about": {
-    "title": "About Me",
+  "title": "About Me",
+  "getToKnow": "Little bit about Zeynep!",
     "subtitle": "As a technology enthusiast software developer, I focus on continuous learning and self-improvement.",
-    "getToKnow": "Get to know me!",
-    "paragraph1": "Hello! I'm <strong>Zeynep Salmaz</strong> and I'm a <strong>Software Developer</strong>. I have worked on various projects, provided consulting for startups, and collaborated with talented people to develop <strong>digital products</strong> for both business and consumer use.",
-    "paragraph2": "I'm passionate about technology and software development. Over the years, I have used hundreds of web and mobile applications in different industries. Feel free to <strong>contact</strong> me.",
+    "paragraph1": "Full Stack Developer with a passion for building user-centric, AI-integrated, scalable web applications. Blending frontend and backend expertise (React, Next.js, Go, SQL) with strong communication and analytical skills gained through customer support, AI testing, and content creation roles. Experienced in community management, growth experimentation, and data-driven product decisions.",
+  "paragraph2": "Outside of work, I love spending time with my dachshund, staying active with sports, playing computer games, and cooking delicious meals. These hobbies keep me balanced and inspired beyond the world of code.",
     "skillsTitle": "My Skills",
     "contactButton": "Contact"
   },
@@ -26,16 +26,12 @@
     "title": "Projects",
     "subtitle": "Some of the important projects and applications I have developed",
     "project1": {
-      "title": "E-Commerce Web Application",
-      "description": "A modern and user-friendly e-commerce platform. Developed using React, Node.js and MongoDB. Includes payment integration, user management and inventory tracking features."
+      "title": "Reportzy - Data Reporting & Visualization",
+      "description": "Reportzy is a platform for uploading, analyzing, and visualizing data. Built with FastAPI for the backend, Pandas for data processing, and React for a modern interface. Users can easily upload and analyze datasets."
     },
     "project2": {
-      "title": "Task Management System", 
-      "description": "A project management application developed for team collaboration. Real-time collaboration, task assignment and progress tracking features. Developed using TypeScript and React."
-    },
-    "project3": {
-      "title": "Mobile Weather Application",
-      "description": "A weather application developed with responsive design. Includes API integration, location-based services and advanced UI/UX features."
+      "title": "Bibliotech - Book Management System",
+      "description": "A full-stack book management app from Global AI Hub Python 202 Bootcamp. Designed with OOP, enriched via Open Library API, exposed as a REST API using FastAPI, and completed with a React frontend for a user-friendly interface."
     },
     "caseStudy": "Case Study"
   },
