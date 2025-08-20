@@ -46,9 +46,6 @@ export default function About() {
                 dangerouslySetInnerHTML={{ __html: t('paragraph2') }}
               />
             </div>
-            <a href="#contact" className="btn-primary">
-              {t('contactButton')}
-            </a>
           </motion.div>
 
           {/* Skills */}
