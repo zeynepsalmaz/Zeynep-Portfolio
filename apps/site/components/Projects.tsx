@@ -11,19 +11,27 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      image: '/images/project-reportzy.jpg', // Add an image if available
+      image: '/images/project-reportzy.jpg',
       technologies: ['Python', 'FastAPI', 'Pandas', 'React'],
       githubUrl: 'https://github.com/zeynepsalmaz/Reportzy',
-      liveUrl: '', // Add live URL if available
+      liveUrl: 'https://reportzy.vercel.app/',
       description: 'Reportzy is a data reporting and visualization tool. Built with FastAPI for the backend, Pandas for data processing, and React for a modern, interactive frontend. Enables users to upload, analyze, and visualize datasets easily.',
     },
     {
       id: 2,
-      image: '/images/project-bibliotech.jpg', // Add an image if available
+      image: '/images/project-bibliotech.jpg',
       technologies: ['Python', 'Django', 'PostgreSQL', 'FastAPI', 'React'],
       githubUrl: 'https://github.com/zeynepsalmaz/Bibliotech',
-      liveUrl: '', // Add live URL if available
+      liveUrl: 'https://bibliotech-zeynep.vercel.app/',
       description: 'Full-stack book management app from Global AI Hub Python 202 Bootcamp. Built with OOP, enriched via Open Library API, exposed as a REST API using FastAPI, and completed with a React frontend for a user-friendly interface.',
+    },
+    {
+      id: 3,
+      image: '/images/project-portfolio.jpg',
+      technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+      githubUrl: 'https://github.com/zeynepsalmaz/Zeynep-Portfolio',
+      liveUrl: 'https://zeynep-portfolio.vercel.app/',
+      description: 'This is my personal portfolio website. Built with Next.js App Router, TypeScript, Tailwind CSS, and deployed on Vercel. It features multi-language support, responsive design, and showcases my projects and skills.',
     },
   ]
 
@@ -68,7 +76,7 @@ export default function Projects() {
                   {t(`project${project.id}.title`)}
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  {project.description ? project.description : t(`project${project.id}.description`)}
+                  {t(`project${project.id}.description`)}
                 </p>
 
                 {/* Technologies */}

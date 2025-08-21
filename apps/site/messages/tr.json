@@ -32,6 +32,10 @@
       "title": "Bibliotech - Kitap Yönetim Sistemi",
       "description": "Global AI Hub Python 202 Bootcamp kapsamında geliştirilen full-stack kitap yönetim uygulaması. OOP ile tasarlandı, Open Library API ile zenginleştirildi, FastAPI ile REST API olarak sunuldu ve React frontend ile tamamlandı."
     },
+    "project3": {
+      "title": "Portfolio Websitesi",
+      "description": "Kişisel portfolyo sitem. Next.js App Router, TypeScript, Tailwind CSS ile geliştirildi ve Vercel üzerinde barındırılıyor. Çoklu dil desteği, duyarlı tasarım ve projelerim ile yeteneklerimi sergileyen bölümler içerir."
+    },
     "caseStudy": "Detayları Gör"
   },
   "contact": {

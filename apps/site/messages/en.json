@@ -32,6 +32,10 @@
       "title": "Bibliotech - Book Management System",
       "description": "A full-stack book management app from Global AI Hub Python 202 Bootcamp. Designed with OOP, enriched via Open Library API, exposed as a REST API using FastAPI, and completed with a React frontend for a user-friendly interface."
     },
+    "project3": {
+      "title": "Portfolio Website",
+      "description": "This is my personal portfolio website. Built with Next.js App Router, TypeScript, Tailwind CSS, and deployed on Vercel. It features multi-language support, responsive design, and showcases my projects and skills."
+    },
     "caseStudy": "Case Study"
   },
   "contact": {
