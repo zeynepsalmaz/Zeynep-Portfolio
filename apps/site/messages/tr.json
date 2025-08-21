@@ -30,7 +30,7 @@
     },
     "project2": {
       "title": "Bibliotech - Kitap Yönetim Sistemi",
-      "description": "Global AI Hub Python 202 Bootcamp kapsamında geliştirilen full-stack kitap yönetim uygulaması. OOP ile tasarlandı, Open Library API ile zenginleştirildi, FastAPI ile REST API olarak sunuldu ve React frontend ile tamamlandı."
+      "description": "Full-stack kitap yönetim uygulaması. OOP ile tasarlandı, Open Library API ile zenginleştirildi, FastAPI ile REST API olarak sunuldu ve React frontend ile tamamlandı."
     },
     "project3": {
       "title": "Portfolio Websitesi",

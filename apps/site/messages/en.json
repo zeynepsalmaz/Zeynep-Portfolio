@@ -30,7 +30,7 @@
     },
     "project2": {
       "title": "Bibliotech - Book Management System",
-      "description": "A full-stack book management app from Global AI Hub Python 202 Bootcamp. Designed with OOP, enriched via Open Library API, exposed as a REST API using FastAPI, and completed with a React frontend for a user-friendly interface."
+      "description": "A full-stack book management app. Designed with OOP, enriched via Open Library API, exposed as a REST API using FastAPI, and completed with a React frontend for a user-friendly interface."
     },
     "project3": {
       "title": "Portfolio Website",

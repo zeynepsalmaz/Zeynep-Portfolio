@@ -30,7 +30,7 @@ export default function Projects() {
       image: '/images/project-portfolio.jpg',
       technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
       githubUrl: 'https://github.com/zeynepsalmaz/Zeynep-Portfolio',
-      liveUrl: 'https://zeynep-portfolio.vercel.app/',
+      liveUrl: 'https://zeynep-portfolio-site.vercel.app/',
       description: 'This is my personal portfolio website. Built with Next.js App Router, TypeScript, Tailwind CSS, and deployed on Vercel. It features multi-language support, responsive design, and showcases my projects and skills.',
     },
   ]
